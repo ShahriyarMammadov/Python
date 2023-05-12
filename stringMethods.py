@@ -35,3 +35,24 @@
 # print(ad.capitalize())
 # print(soyad.capitalize())
 # print(ad.index('h'))
+# --------------------------
+
+cumle = "salam dos necesinizi= asafafjanjkfsad"
+c=cumle.split()
+en_qisa_soz= c[0]
+
+for i in c:
+    if len(i) < len(en_qisa_soz):
+        en_qisa_soz = i
+
+print("en qisa soz",en_qisa_soz)
+
+# uzun soz
+sozler = cumle.split()
+en_uzun_soz = ""
+
+for i in sozler:
+    if len(i) > len(en_uzun_soz):
+        en_uzun_soz = i
+
+print("En uzun soz:", en_uzun_soz)
