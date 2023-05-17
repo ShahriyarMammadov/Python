@@ -37,22 +37,57 @@
 # print(ad.index('h'))
 # --------------------------
 
-cumle = "salam dos necesinizi= asafafjanjkfsad"
-c=cumle.split()
-en_qisa_soz= c[0]
+# cumle = "salam dos necesinizi= asafafjanjkfsad"
+# c=cumle.split()
+# en_qisa_soz= c[0]
 
-for i in c:
-    if len(i) < len(en_qisa_soz):
-        en_qisa_soz = i
+# for i in c:
+#     if len(i) < len(en_qisa_soz):
+#         en_qisa_soz = i
 
-print("en qisa soz",en_qisa_soz)
+# print("en qisa soz",en_qisa_soz)
 
-# uzun soz
-sozler = cumle.split()
-en_uzun_soz = ""
+# # uzun soz
+# sozler = cumle.split()
+# en_uzun_soz = ""
 
-for i in sozler:
-    if len(i) > len(en_uzun_soz):
-        en_uzun_soz = i
+# for i in sozler:
+#     if len(i) > len(en_uzun_soz):
+#         en_uzun_soz = i
 
-print("En uzun soz:", en_uzun_soz)
+# print("En uzun soz:", en_uzun_soz)
+
+
+# 5-den kicik reqemlerin hasili
+
+# integer = int(input("ededi daxil edin: "))
+
+# hasil = 1
+# output = [int(x) for x in str(integer)]
+# for i in output:
+#     if i < 5:
+#         hasil = hasil * i
+# print(hasil)
+
+# p = 1
+# while integer > 0:
+#     r = integer % 10
+#     if r < 5:
+#         p = p*r
+#     integer = integer // 10
+# print(p)
+
+
+# setrin simvollari icerisinde butun reqemlerin kvadratlari cemi
+
+# setir=str(input('metni daxil edin: '))
+# reqemler= '0123456789'
+# s=1
+# for i in setir:
+#     if reqemler.count(i) > 0:
+#         s=s*int(i)**3
+# print(s)
+
+
+a=int(input('reqemi daxil edin: ' ))
+print(a**(1/2))
