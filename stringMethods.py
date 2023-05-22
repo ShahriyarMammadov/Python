@@ -89,5 +89,56 @@
 # print(s)
 
 
-a=int(input('reqemi daxil edin: ' ))
-print(a**(1/2))
+# a=int(input('reqemi daxil edin: ' ))
+# print(a**(1/2))
+
+
+# ededi tersden yazan funksiya
+
+# eded = int(input("ededi daxil edin: "))
+
+# def sehlaninFunksiyasi(a): {
+#     print(int(str(a)[::-1]))
+# }
+
+# sehlaninFunksiyasi(eded)
+
+# 1-den daxil edilen edede qeder (input) cut ededlerin cemini ve hasilini hesablayan funksiya
+# a = 1
+# b = int(input('Ededi daxil edin: '))
+# s = 0
+# d = 1
+
+
+# def sey():
+#     global s, d
+#     for i in range(a, b):
+#         if i % 2 == 0:
+#             s = s + i
+#             d = d * i
+
+
+# sey()
+# print(d)
+# print(s)
+
+
+# daxil edilen ededin kokalti qiymetini hesablayan funksiya
+
+# a=int(input('ededi daxil edin: '))
+
+# def a(a):
+#     print(a*2)
+
+# a(a)
+
+# daxil edilen ededin kvarati ile kubunun cemini hesablayan funksiya
+
+a=int(input('ededi daxil edin '))
+def jk():
+    global a
+    s=0
+    kvadrat=a**2
+    kub=a**3
+    print(kvadrat+kub)
+jk()
