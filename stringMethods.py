@@ -246,9 +246,52 @@
 # alma()            
 
 # 1-den 500-e qeder 200-e ve ya 400-e qaliqsiz bolunen ededleri teyin eden funksiya
-s=0
-def xoruz():
-    for i in range (1,501):
-        if (i % 200 == 0 or i % 400 == 0):
-            print(s) 
-xoruz()            
+# s=0
+# def xoruz():
+#     for i in range (1,501):
+#         if (i % 200 == 0 or i % 400 == 0):
+#             print(s) 
+# xoruz()            
+
+# ----------------------------------
+
+# daxil edilen ededin 100-den boyuy olub olmadigini ve cut eded olub olmadigini yoxlayan funksiya
+
+# a=int(input('ededi daxil edin'))
+# def masin():
+#     if a>100 and a%2==0:
+#         print(a)
+#     else:
+#         print('a ededi 100 den boyuk deyil')   
+
+# if a > 0:
+#     masin()
+# else:
+#     print('eded  menfidir cut eded daxil edin!!!!!!')
+    
+
+# daxil edilen araliqda olan cut ededlerin cemi ve tek ededlerin hasilini hesablayan funksiya
+# a=int(input('ededi daxil edin: '))
+# b =int(input('ededi daxil edin:'))
+# s=0
+# p=1
+# def eded():
+#     global a,b,s,p
+#     for i in range (a,b):
+#         if i%2 ==0:
+#             s=s+i
+            
+#         else:
+#             p=p*i
+            
+# eded()           
+# print(s)
+# print(p)
+
+
+# daxil edilen sözün sonuncu hərfini və uzunluğunu qaytaran funksiya
+
+# a=input('metni daxil edin:')
+# b= list(a)
+# print(b[len(b) - 1])
+# print(len(b))
