@@ -295,3 +295,57 @@
 # b= list(a)
 # print(b[len(b) - 1])
 # print(len(b))
+
+# ------------------------------------
+# pyhton sonuncu gun
+
+# 1-den daxil edilen edede qeder olan cut ededlerin cemi
+
+# a=int(input('ededi daxil edin:'))
+# s=0
+# for i in range (1,a):
+#     if i%2 == 0:
+#         s=s+i
+# print(s)
+
+
+# daxil edilen ədədin 15 və 20 arasında olub olmadığını yoxlayan funksiya
+# a=int(input('edeid daxil edin: '))
+# def eded():
+#     global a
+#     if (a>15 and a<20):
+#         print("true")
+#     else:
+#         print('false')
+# eded()            
+
+
+# daxil edilən ədədin kravratını hesablayan funksiya
+
+# a=int(input('ededi daxil edin: '))
+# def defter():
+#     b=a**2
+#     print(b)
+# defter()    
+
+# 90-a qeder cüt ededlerin hasili ve tek ededlerin cəmini hesablayan funksiya
+# s=0
+# p=1
+# def eded():
+#     global s,p
+#     for i in range (1,91):
+#         if (i%2 == 0 ):
+#             p=p*i
+#         else:
+#             s=s+i
+# eded()
+# print(p)
+# print(s)                
+
+# 1-den 20-yə qədər 2 rəqəmli və cüt ədədləri ekrana çıxaran funksiya
+
+# def eded():
+#     for i in range (1,21):
+#         if len(str(i)) > 1 and i % 2 == 0:
+#             print(i)
+# eded()
