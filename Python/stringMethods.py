@@ -460,3 +460,28 @@
 #     else: 
 #         print('eded cut ve ye 10 dan boyuk deyil')
 # say()
+
+
+# ----------------------------------------------
+
+# s = 0
+# i = 1
+# while i <= 10:
+#     s = s+i
+#     i= i+1
+#     if i>5:
+#         break
+# print(s)
+
+# def f(a, b):
+#     while a !=0 and b !=0:
+#         if a>b:
+#             a=a%b
+#         else:
+#             b=b%a
+#     return a + b
+
+# a=int(input())
+# b=int(input())
+
+# print(f(a, b))
