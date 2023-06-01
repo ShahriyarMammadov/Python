@@ -349,3 +349,114 @@
 #         if len(str(i)) > 1 and i % 2 == 0:
 #             print(i)
 # eded()
+
+# ------------------------------------------------------------------
+
+# daxil edilen ededin 100-den kicik olub olmadigini yoxlayan funksiya
+
+# a=int(input('ededi daxil edin: '))
+# def eded():
+#     global a
+#     if a < 100:
+#         print(a)
+#     else:
+#         print('eded 100 den kicik deyil')
+# eded()
+
+
+# daxil edilen sozun uzunlugunu gosteren funksiya
+# a = input('sozu daxil edin:')
+
+# def eded():
+#     global a
+#     print( len(a))
+# eded()
+
+
+
+# daxil edilen sozun sonuncu herfini ve ilk herfini gosterin
+
+# a=input('sozu daxil edin: ')
+# b=list(a) 
+# print(b[len(b) -1])
+# print(b[0])
+
+
+
+
+
+# daxil edilen ededin kvarati ile kubunun cemini hesablayan funksiya
+# a=int(input('ededi daxil edin: '))
+# s=0
+# def ev():
+#     global a,s,b,c
+#     b=a**2
+#     c=a**3
+#     print(b+c)
+# ev()
+
+
+# 1-den 50-ye qeder olan ededleri 3-bolunende qaliqda qalan ededler 
+# for i in range (1,51):
+#     if i%3== 2:
+#        print('2')
+#     if i%3== 1:
+#         print('1')
+#     if i%3==0:
+#         print('0')
+
+
+
+
+# daxil edilen ədədin 15 və 20 arasında olub olmadığını yoxlayan funksiya
+# a=int(input('ededi daxil edin: '))
+# def eded ():
+#     global a
+#     if (a>15 and a<20):
+#         print('a ededi 15 ile 20 arasinda yerlesir')
+#     else:
+#         print('a ededi 15 ve 20 arasinda yerlesmir')
+# eded()
+
+
+# daxil edilen ededin 50 - 70 arasinda olub olmadigini ve cut eded oldugunu yoxlayan funksiya
+
+# a=int(input('ededi daxil edin: '))
+# def eded():
+#     if ( 70>a>50 and a%2==0 ):
+#         print(a)
+#     else:
+#         print('eded 50 ile 70 arasinda yerlesmir')
+
+#     if a>0:
+#         print(a)
+#     else:
+#         print('eded menfidir musbet eded daxil edin')
+# eded()
+
+
+
+
+# sozun herflere ayrilaraq massive yigilmasi
+# a=input('sozu daxil edin: ')
+# b=list(a)
+
+# print(b)
+
+# daxil edilen sozun uzunlugu 10-dan boyukdurse 10-dan boyuk oldugunu bildirmek
+ 
+# a=input('sozu daxil edin: ')
+# if len(a)>10:
+#    print('a ededi 10 dan boyukdur')
+# else:
+#    print('a ededi 10 dan boyuk deyil')
+
+# daxil edilen ededin cut ve ya 10-dan boyuk oldugunu teyin eden funksiya
+
+# a=int(input('ededi daxil edin:'))
+# def say():
+#     if a%2==0 or a>10:
+#         print(a)
+#     else: 
+#         print('eded cut ve ye 10 dan boyuk deyil')
+# say()
