@@ -485,3 +485,89 @@
 # b=int(input())
 
 # print(f(a, b))
+
+# tekrarin silinmesi
+
+# a = [1,2,3,4,3,2]
+# t=[]
+
+# for x in a:
+#     if t.count(x) == 0:
+#         t.append(x)
+
+# a=t 
+# print(a)
+
+# def eded(x):
+#     s = 0
+#     while x>0:
+#         q = x%10
+#         s = s+q
+#         x = x//10
+#     return s
+
+# a = 289
+# while a>9:
+#     a=eded(a)
+
+# print(a)
+
+
+# m = 2
+# n = 6
+# k = 9
+# if m + n < k:
+#     print(k // (n-m))
+# else:
+#     print(k % (n-m))
+
+# print(3 % 10)
+
+
+# a = [351, 648, 776, 918]
+
+# for i in a:
+#     print((i // 100 + i % 10)*2)
+
+# --------------------------
+
+# a = [1,2,4,5,4,9,9,4,1,2,2,3,5,6,75,15,15,15,45,15,45,78,89]  massivində ikidən çox təkrarlanan elementləri silmək
+
+# a = [1,2,4,5,4,9,9,4,1,2,2,3,5,6,75,15,15,15,45,15,45,78,89]
+# b=[]
+
+# for i in a:
+#     if b.count(i) == 0:
+#         b.append(i)
+
+# print(b)
+
+# təkrarlanan elementlərdən yeni massiv yaradın və yaradılan massivdə cüt və tək ədədləri göstərin
+
+# t=[]
+
+# n=int(input('eded daxil edin; '))
+
+# def sumtwo(n):
+#     while n % 2 == 0 and n > 1:
+#         n = n/2
+#     return n == 1
+
+# print(sumtwo(n))
+
+
+#  eks ardicilliq
+
+# n = 156465
+# m=str(n)
+# print(m[::-1])
+
+
+# evveline 3 yazmaq
+
+# n= 45442
+
+# b = [int(x) for x in str(n)]
+# b=b+[4]
+
+# print(b)
