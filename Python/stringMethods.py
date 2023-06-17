@@ -571,3 +571,45 @@
 # b=b+[4]
 
 # print(b)
+
+
+# ilk ve son reqem
+# a=int(input('ededi daxil edin: '))
+# ilk_raqam = (a // (10 ** (len(str(a)) - 1))) * 5
+# son_raqam = (a % 10) * 2
+# print(ilk_raqam, son_raqam)
+# -----------------------
+
+# kvadratin terefi ve perimetri
+# a=int(input("terefi daxil edin: "))
+
+# perimetr = a * 4
+# sahesi = a * a
+# print("sahesi: ", sahesi, "perimetri: ", perimetr)
+
+# -----------------
+# 2-nin quvveti olub olmadigi
+# eded= int(input('ededi daxil edin: '))
+
+# def is_power_of_two(n):
+#     if n <= 0:
+#         return False
+#     while n % 2 == 0:
+#         n = n / 2
+#     return n == 1
+
+# if is_power_of_two(eded):
+#     print(eded, "2'nin kuvvetidir.")
+# else:
+#     print(eded, "2'nin kuvveti değildir.")
+
+# -------------------------------
+# eks ardicilliq
+# eded= input('ededi daxil edin: ')
+# print(eded[::-1])
+
+# ------------------
+# evveline 3 elave etmek
+# eded= input('ededi daxil edin: ')
+# yenilenen_sayi = str(3) + str(eded)
+# print(yenilenen_sayi)
