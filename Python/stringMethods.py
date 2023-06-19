@@ -613,3 +613,45 @@
 # eded= input('ededi daxil edin: ')
 # yenilenen_sayi = str(3) + str(eded)
 # print(yenilenen_sayi)
+
+
+# 1) Daxil edilmiş ədəddən bir əvvəlki və bir sonrakı ədədi ekrana çıxaran funksiya
+# eded = int(input('ededi daxil edin: '))
+# a = eded
+
+# def ededs():
+#     global eded, a
+#     eded = eded + 1
+#     a = a - 1
+# ededs()
+
+# print(eded, a)
+
+# 2) Daxil edilmiş sözün ilk və son hərfinin yerini dəyişən funksiya
+# soz = input('Sözü daxil edin: ')
+
+# ilk_harf = soz[0]
+# son_harf = soz[-1]
+# digerleri = soz[1:-1]
+# yeni_soz = son_harf + digerleri + ilk_harf
+# print(yeni_soz)
+
+
+# 3) Daxil edilmiş cümlədə ilk və son sözü göstərən funksiya
+
+# cumle=input('cumleni daxil edin: ')
+# m=cumle.split()
+# print(m[0])
+# print(m[-1])
+
+# 4) Daxil edilmiş massivdə elementlərini yerini əks ardıcıllıqla düzən funksiya
+
+# a= input('sozu daxil edin:')
+# print(a[::-1])
+
+# Daxil edilmiş ədədin 100-dən böyük və cüt ədəd olduğunu göstərən funksiya
+# Daxil edilmiş cümləni hərflərə ayıraraq ekrana çıxaran funksiya
+# Ədəd 100-dən böyük olduqda True əks halda false qaytaran funksiya
+# 1-dən 2000-ə qədər bütün cüt ədədlərin cəmini və tək ədədlərin hasilini ekrana çıxarmaq
+# 15-dən 60-a qədər 50-dən böyük ədədlərin içindən cüt ədədi ekrana çıxaran funksiya
+# Daxil edilmiş ədədin 50-dən kiçik və ya tək olduğunu göstərən funksiya
