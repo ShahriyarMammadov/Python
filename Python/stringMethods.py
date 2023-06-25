@@ -650,8 +650,88 @@
 # print(a[::-1])
 
 # Daxil edilmiş ədədin 100-dən böyük və cüt ədəd olduğunu göstərən funksiya
+
+# a=int(input('ededi daxil edin:'))
+# def eded ():
+#     if a>100 and a%2==0:
+#         print (a)
+#     else:
+#         print('eded 100 den kiçik tekdir')
+# eded()
+
 # Daxil edilmiş cümləni hərflərə ayıraraq ekrana çıxaran funksiya
+
+# a=input('cumleni daxil edin:')
+# def cumle():
+#     b=list(a)
+#     print(b)
+# cumle()
+
 # Ədəd 100-dən böyük olduqda True əks halda false qaytaran funksiya
+
+# a=int(input('ededi daxil edin;'))
+# def eded():
+#     if a>100:
+#         print(True)
+#     else:
+#         print(False)
+# eded()
+
 # 1-dən 2000-ə qədər bütün cüt ədədlərin cəmini və tək ədədlərin hasilini ekrana çıxarmaq
+
+# s=0
+# p=1
+# for i in range (1,2001):
+#     if i%2==0:
+#         s=s+i
+#     elif i%2==1:
+#         p=p*i
+
+# print("hasil",p)
+# print("cem",s)
+
 # 15-dən 60-a qədər 50-dən böyük ədədlərin içindən cüt ədədi ekrana çıxaran funksiya
+
+# for i in range (15,61):
+#     if i>50 and i%2==0:
+#         print(i)
+
 # Daxil edilmiş ədədin 50-dən kiçik və ya tək olduğunu göstərən funksiya
+# a=int(input('ededi daxil edin:'))
+# def eded():
+#     if a<50 or a%2==1:
+#         print(a)  
+# eded()  
+
+# daxil edilen ededi 10 defe tekrarla
+# a= input('ededi daxil edin:')
+# print(a*10)
+
+# 0-dan 100-e kimi ededlerden 15 ile 20 arasinda olan ededlerin ceminin 4/1 ve 25 ile 30 arasinda olanlarin ceminin 6/1
+
+# s = 0
+# v=0
+# for i in range(0,101):
+#     if(i >= 15 and i<=20):
+#         s=s+i
+#     elif(i>=25 and i<=30):
+#         v=v+i
+
+# print(s*(1/4))
+# print(v*(1/6))
+
+# ilk herfi boyuk eden funk
+
+# a=input("Sozu daxil edin: ")
+# print(a.capitalize())
+
+# ilk ve son herfin yerini deyisdiren
+
+a=input("Sozu daxil edin: ")
+ilkHerf = a[0]
+sonHerf = a[-1]
+digerHerfler = a[1:-1]
+
+yeniYarananSoz = sonHerf + digerHerfler + ilkHerf
+
+print(yeniYarananSoz)
