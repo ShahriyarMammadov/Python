@@ -727,11 +727,88 @@
 
 # ilk ve son herfin yerini deyisdiren
 
-a=input("Sozu daxil edin: ")
-ilkHerf = a[0]
-sonHerf = a[-1]
-digerHerfler = a[1:-1]
+# =input("Sozu daxil edin: ")a
+# ilkHerf = a[0]
+# sonHerf = a[-1]
+# digerHerfler = a[1:-1]
 
-yeniYarananSoz = sonHerf + digerHerfler + ilkHerf
+# yeniYarananSoz = sonHerf + digerHerfler + ilkHerf
 
-print(yeniYarananSoz)
+# print(yeniYarananSoz)
+
+# 1) daxil edilən birinci ədədin və ikinci ədədin cəminin 3cü daxil edilən ədəddən böyük olduğu halda ekrana 1-ci ilə 3-cü ədədin cəminin 2-ci ədədə olan nisbətini çıxarmaq əks halda False
+
+# a=int(input('1 ededi daxil edin: '))
+# b=int(input('2 ededi daxil edin: '))
+# c=int(input('3 ededi daxil edin: '))
+
+# if a+b>c:
+#     print((a+c/b))
+# else:
+#     print(False)
+
+
+# 2) birinci daxil edilən ədədin ikinci və üçüncü daxil edilən ədəddən böyük olduğu halda ekrana birinci və üçüncü ədədin hasilini çıxarmaq
+# a=int(input('1 ededi daxil edin: '))
+# b=int(input('2 ededi daxil edin: '))
+# c=int(input('3 ededi daxil edin: '))
+
+# if a>b and a>c:
+#     print(a*c)
+# else:
+#     print(False)
+
+# 3) daxil edilmis ədədlərin içərisindən təkrarlananları silmək (eyni anda daxil edilən ədədlər)
+
+# a=int(input('1 ededi daxil edin: '))
+
+
+# 4) daxil edilmiş sözün və ya cümlənin içərisindən rəqəmləri seçib ekrana çıxaran funksiya
+
+# a=str(input('sozu daxil edin: '))
+
+# reqemler = ["0","1","2","3","4","5","6","7","8","9"]
+
+# for i in a:
+#     if reqemler.count(i) > 0:
+#         print(i)
+
+# -----------------------------------------------------------------
+
+# 1) 1-dən daxil edilmiş ədədə-ə qədər olan ədədlər içərisindən cüt olanı və 10-a tam bölünən ədədləri ekrana çıxaran funksiya (funksiya!)
+
+# a=int(input('ededi daxil edin: '))
+# def eded():
+#     for i in range (1,a):
+#         if i%2 == 0 and i%10 == 0:
+#             print(i)
+# eded()
+
+# 3) daxil edilmis ədədlərin içərisindən təkrarlananları silmək (eyni anda daxil edilən ədədlər)
+
+
+
+# 2) a = [1,2,4,5,4,9,9,4,1,2,2,3,5,6,75,15,15,15,45,15,45,78,89]  massivində ikidən çox təkrarlanan elementləri silmək
+
+# a = [1,2,4,5,4,9,9,4,1,2,2,3,5,6,75,15,15,15,45,15,45,78,89]
+# b=[]
+
+# for i in a:
+#     if b.count(i) == 0:
+#         b.append(i)
+
+# print(b)
+
+# 3) Daxil ededin ededin polindrom olub olmamasini yoxlayan funksiya
+
+# a=input('ededi daxil edin: ')
+# if a[::-1] == a:
+#     print("yes")
+# else:
+#     print("No")
+
+# 4) Daxil edilen ededin sonuncu ededinden 1 vahid evvelde yerlesen ededi teyin eden funksiya
+
+# a=int(input('ededi daxil edin: '))
+# b=list(str(a))
+# print(b[-2])
