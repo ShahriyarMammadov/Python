@@ -812,3 +812,46 @@
 # a=int(input('ededi daxil edin: '))
 # b=list(str(a))
 # print(b[-2])
+
+# ------------------------------------
+# 1) Daxil edilən ədədin 4-də bir hissəsini ekrana çixarmaq
+
+# a=int(input('ededi daxil edin: '))
+# b=a*(1/4)
+# print(b)
+
+# 2) Daxil edilmiş cümlədə ilk və son sözü göstərən funksiya 
+
+# a=input('cumleni daxil edin: ')
+# b=a.split()
+# ilk_soz=b[0]
+# son_soz=b[-1]   
+# print(ilk_soz, son_soz)
+
+# 3) 1-den 20-yə qədər 2 rəqəmli və cüt ədədləri ekrana çıxaran funksiya
+# def eded():
+#     for i in range(1,21):
+#         if i%2==0 and len(str(i))>1 :
+#             print(i)
+# eded()           
+   
+
+# 4) Daxil edilmiş cümlədə olan butun (tekrarlanmadan) reqemlerin kvadratlari cemi
+
+# a=input('cumleni daxil eidn: ')
+
+
+# 5) Daxil edilen ededin 100-den boyuy olub olmadigini ve cut eded olub olmadigini yoxlayan funksiya
+# a=int(input('ededi daxil edin:'))
+# def eded():
+#     if a>100 and a%2==0 :
+#         print('eded 100den boyuk ve cutdur')
+#     else:
+#         print('false')
+# eded()
+
+# ----------------------------------
+
+# 1) Daxil ededin ededin polindrom olub olmamasini yoxlayan funksiya
+# 2) Daxil edilen ededin sonuncu ededinden 1 vahid evvelde yerlesen ededi teyin eden funksiya
+# 3) Daxil edilmiş cümlədə ilk və son sözü göstərən funksiya, əgər cümlə 2 hərflidirsə ekrana sözün özünü çıxartmaq
