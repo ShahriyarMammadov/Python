@@ -838,8 +838,29 @@
 
 # 4) Daxil edilmiş cümlədə olan butun (tekrarlanmadan) reqemlerin kvadratlari cemi
 
-# a=input('cumleni daxil eidn: ')
+# a=input('cumleni daxil edin: ')
 
+# reqemler = ["0","1","2","3","4","5","6","7","8","9"]
+# cumledeki_reqemler=[]
+# tekrarlamadan=[]
+# kvadrat = []
+# ayriayri = ""
+
+# for i in a:
+#     if reqemler.count(i) > 0:
+#         cumledeki_reqemler.append(i)
+
+# for i in cumledeki_reqemler:
+#     if tekrarlamadan.count(i) != 1:
+#         tekrarlamadan.append(i)
+
+# for i in tekrarlamadan:
+#     kvadrat.append(int(i) ** 2)
+
+# for i in kvadrat:
+#     ayriayri += str(i) + ","
+
+# print(ayriayri)
 
 # 5) Daxil edilen ededin 100-den boyuy olub olmadigini ve cut eded olub olmadigini yoxlayan funksiya
 # a=int(input('ededi daxil edin:'))
@@ -853,5 +874,26 @@
 # ----------------------------------
 
 # 1) Daxil ededin ededin polindrom olub olmamasini yoxlayan funksiya
+
+# a=input('ededi daxil edin: ')
+# def eded():
+#     if a[::-1]== a :
+#         print('eded polidromdur')
+#     else:
+#         print('false')   
+# eded()        
+
+
+
 # 2) Daxil edilen ededin sonuncu ededinden 1 vahid evvelde yerlesen ededi teyin eden funksiya
+# a=int(input('ededi daxil edin: '))
+
+# print(a - 1)
+
+
 # 3) Daxil edilmiş cümlədə ilk və son sözü göstərən funksiya, əgər cümlə 2 hərflidirsə ekrana sözün özünü çıxartmaq
+
+a=str(input('cumleni daxil edin: '))
+b=a.split()
+print("Ilk soz: ",b[0])
+print("Son soz: ",b[-1])
