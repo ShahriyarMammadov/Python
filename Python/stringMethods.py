@@ -893,7 +893,22 @@
 
 # 3) Daxil edilmiş cümlədə ilk və son sözü göstərən funksiya, əgər cümlə 2 hərflidirsə ekrana sözün özünü çıxartmaq
 
-a=str(input('cumleni daxil edin: '))
-b=a.split()
-print("Ilk soz: ",b[0])
-print("Son soz: ",b[-1])
+# a=str(input('cumleni daxil edin: '))
+# b=a.split()
+# print("Ilk soz: ",b[0])
+# print("Son soz: ",b[-1])
+
+# 3 reqemli ededin ozunun butun reqemlerine bolunub bolunmemesi
+
+eded= int(input("ededi daxil edin: "))
+
+def reqemlere_bolunme(sayi):
+    reqemler = list(str(sayi))
+
+    for reqem in reqemler:
+        if reqem == '0' or sayi % int(reqem) != 0:
+            return False
+
+    return True
+
+print(reqemlere_bolunme(eded))
